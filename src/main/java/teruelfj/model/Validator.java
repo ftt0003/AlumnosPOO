@@ -11,9 +11,6 @@ public class Validator {
     private static final int NUM_LETRAS = 23;
 
     public static boolean dniValidator(String dni){
-        if (dni == null){
-            return false;
-        }
         if(dni.length() != 9  || dni.charAt(8) !=  NUM_VALIDOS.get(getResto(dni))) return false;
         return true;
     }
@@ -23,7 +20,7 @@ public class Validator {
     }
 
     private static long getLongOfDni(String dni){
-        return Long.decode(dni.substring(0,7));
+        return Long.decode(dni.substring(0,8));
     }
 
 }
