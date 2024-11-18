@@ -1,5 +1,6 @@
 package teruelfj.model;
 
+
 public class Asignatura {
     private String nombre;
 
@@ -9,6 +10,7 @@ public class Asignatura {
     public Asignatura(String nombre){
         this.nombre = nombre;
     }
+
     public String getNombre(){
         return this.nombre;
     }
