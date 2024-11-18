@@ -3,7 +3,7 @@ package teruelfj.model;
 
 import java.util.Arrays;
 import java.util.List;
-//Try 2
+//Try 23
 public class Validator {
     private static final List<Character> NUM_VALIDOS = Arrays.asList('T','R','W','A','G','M','Y','F','P','D','X','B','N',
             'J','Z','S','Q','V','H','L','C','K','E');
